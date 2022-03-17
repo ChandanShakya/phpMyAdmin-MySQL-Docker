@@ -22,12 +22,12 @@ docker-compose up -d
 
 > First run will take longer as it has to fetch all images
 
-- Put your files in /src folder; it should show up in [localhost:8080](localhost:8080)
-- To access phpMyAdmin, navigate to [localhost:5000](localhost:5000)
+- Put your files in /src folder; it should show up in [localhost:8080](https://localhost:8080)
+- To access phpMyAdmin, navigate to [localhost:5000](https://localhost:5000)
 
 ### To check if the server is running or not;
 
-open [localhost:8080](localhost:8080)
+open [localhost:8080](https://localhost:8080)
 
 ### To list the current running containers;
 
@@ -63,7 +63,7 @@ docker image rm namesOfImages
 
 ### Defaults
 
-- Default MySQL password = secret
-- Default phpMyAdmin user = root
-- Default phpMyAdmin password = secret
-- Default servername = mysql-server
+- MySQL password = secret
+- phpMyAdmin user = root
+- phpMyAdmin password = secret
+- servername = mysql-server
