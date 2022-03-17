@@ -6,16 +6,18 @@
 - MySQL
 - phpMyAdmin
 
-How to run?
-- git clone
-- cd LAMP-Docker
+## How to run?
 - Install docker and docker-compose
+- git clone https://github.com/ZXY-CC-3ag13/phpMyAdmin-MySQL-Docker.git
+- cd phpMyAdmin-MySQL-Docker
 - To start the container;
 ```bash
 docker-compose up -d
 ```
 > This will spin up a container with apache, MySQL and PHP
+
 > The persisent volume will be named mysql-test
+
 > First run will take longer as it has to fetch all images
 - To check if the server is running or not;
     - open localhost:8080
