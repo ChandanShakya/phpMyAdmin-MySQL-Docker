@@ -2,8 +2,8 @@
 
 ## What this Dockerfile contains?
 - Apache
-- PHP
 - MySQL
+- PHP
 - phpMyAdmin
 
 ## How to run?
