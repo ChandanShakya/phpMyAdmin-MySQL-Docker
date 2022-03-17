@@ -16,38 +16,52 @@ git clone https://github.com/ZXY-CC-3ag13/phpMyAdmin-MySQL-Docker.git
 ```bash
 docker-compose up -d
 ```
-> This will spin up a container with apache, MySQL and PHP
+> This will spin up a container with Apache, MySQL and PHP
 
 > The persisent volume will be named mysql-test
 
 > First run will take longer as it has to fetch all images
-- To check if the server is running or not;
-    - open localhost:8080
-- To list the current running containers;
+
+- Put your files in /src folder; it should show up in [localhost:8080](localhost:8080)
+- To access phpMyAdmin, navigate to [localhost:5000](localhost:5000)
+
+### To check if the server is running or not;
+
+open [localhost:8080](localhost:8080)
+
+### To list the current running containers;
+
 ```bash
 docker-compose ps
 ```
-- Put your files in /src folder; it should show up in localhost:8080
-- To access phpMyAdmin, navigate to localhost:5000
-- To stop the container;
+
+### To stop the container
+
 ```bash
 docker-compose down
 ```
-- To list the volumes
+
+### To list the volumes
+
 ```bash
 docker volumes ls
 ```
-- To remove the volume
+
+### To remove the volume
+
 ```bash
 docker volume rm phpMyAdmin-MySQL-Docker_sql-test
 ```
-- To remove the images
+### To remove the images
+
 ```bash
 # List all the images
 docker image ls
 # Remove the unneeded images
 docker image rm namesOfImages
 ```
+
+### Defaults
 
 - Default MySQL password = secret
 - Default phpMyAdmin user = root
