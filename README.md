@@ -9,7 +9,7 @@
 ## How to run?
 - Install docker and docker-compose
 ```bash
-git clone https://github.com/ZXY-CC-3ag13/phpMyAdmin-MySQL-Docker.git
+git clone https://github.com/ChandanShakyaphpMyAdmin-MySQL-Docker.git
 ```
 - cd phpMyAdmin-MySQL-Docker
 - To start the container;
